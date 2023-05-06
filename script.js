@@ -12,6 +12,13 @@ const getPokemon = async (id) => {
 	const res = await fetch(url)
 	const data = await res.json()
 	createPokemonCard(data)
+    //console.log(data);
+    
+    /* console.log(data.name); 
+    console.log(data.base_experience); 
+    console.log(data.types[0].type.name); 
+     */
+
 }
 
 const createPokemonCard = (pokemon) => {
@@ -26,7 +33,7 @@ const createPokemonCard = (pokemon) => {
 
 	const pokemonInnerHTML = `
     <div class='cover'>
-                <img src='https://raw.githubusercontent.com/Kapelu/app-pokemon/96a05b8771417cb60ecd895d1db3a8f90b3a80a7/img/pokemon/${pokemon.id}.svg' alt=''>
+                <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg' alt=''>
                 <div class='img__back ${type}'></div>
             </div>
             <div class='description'>                
