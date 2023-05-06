@@ -34,7 +34,8 @@ body {
 	left: calc(50% - 50px);
 	height: 80px;
 	width: 80px;
-	background-color: #fff;
+	background-image: url(./img/Keiko01.png);
+    background-size: contain;
 	border-radius: 50%;
 	border: 10px solid #000;
 }
