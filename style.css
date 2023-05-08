@@ -15,7 +15,7 @@ body {
 	margin: 0;
 }
 
-/* ////////////////////////////////////////////Navbar//////////////////////////////////////////// */
+/* NAVBAR */
 .nav {
 	position: sticky;
 	background-color: #fe1c1d;
@@ -53,7 +53,7 @@ body {
 	filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.3));
 }
 
-/* ////////////////////////////////////////////Cards////////////////////////////////////////////// */
+/* CARDS */
 
 .poke-container {
 	display: flex;
